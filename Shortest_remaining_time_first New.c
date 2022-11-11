@@ -55,7 +55,7 @@ int main()
             
             for(int i=0;i<n;i++)
             {
-                if(a[i] < (t+tt) && !vis[i] && next > a[i]  &&  burst > b[i] && (burst - a[i]) > b[i])
+                if(a[i] < (t+tt) && !vis[i] && next > a[i]  &&  burst > b[i] && ((t+tt) - a[i]) > b[i])
                 {
                     next = a[i];
                     id = i;
