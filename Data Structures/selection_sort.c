@@ -3,9 +3,9 @@
 
 void swap(int *a, int *b)
 {
-    int t = *a;
+    int temp = *a;
     *a = *b;
-    *b = t;
+    *b = temp;
 }
 
 void selection_sort(int arr[],int n)
