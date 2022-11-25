@@ -109,10 +109,10 @@ int main(void)
         if(c == 1) insert();
         else if(c == 2)
         {
-            int del = 0;
+            int d = 0;
             printf("Enter no : ");
-            scanf("%d",&del);
-            delete(del);
+            scanf("%d",&d);
+            delete(d);
         }
         else if(c == 3) display();
         else if(c == 4) break;
