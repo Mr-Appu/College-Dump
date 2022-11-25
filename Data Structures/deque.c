@@ -98,7 +98,6 @@ void display()
 
 int main(void)
 {
-    
     while(1)
     {
         printf("\n1.Push 2.Pop 3.Inject 4.Eject 5.Display 6.Exit \nEnter : ");
