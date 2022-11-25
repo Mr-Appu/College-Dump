@@ -16,12 +16,11 @@ int n;
     Logic
     
     All philosophers except last one picks left fork first and then right fork
-
 */
 
 void philosopher(int *ptr)
 {
-    int id = *ptr;
+    int id = *ptr; // philosopher number 
     
     int i = *ptr; //left
     int j = (i+1)%n; //right
