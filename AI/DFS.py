@@ -1,5 +1,3 @@
-import numpy as np
-
 graph = {
     "A" : sorted("S E C".split()),
     "B" : sorted("S Q I".split()),
