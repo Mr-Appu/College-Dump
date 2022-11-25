@@ -6,7 +6,7 @@ int main()
     printf("Enter n : ");
     int n; scanf("%d",&n);
     
-    //Assuming available resources = 3 ti
+    //Assuming available resources = 3
 
     int allocation[n][3];
     int max[n][3];
