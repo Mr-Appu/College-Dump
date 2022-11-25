@@ -47,7 +47,7 @@ char peek()
 }
 
 /*
-Infix to Postfix
+Infix to Postfix using Linked List
 
 */
 
