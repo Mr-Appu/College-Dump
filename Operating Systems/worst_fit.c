@@ -5,9 +5,9 @@
 
 void swap(int *a, int *b)
 {
-    int t = *a;
+    int temp = *a;
     *a = *b;
-    *b = t;
+    *b = temp;
 }
 
 void sort(int n, int arr[n],int id[n])
