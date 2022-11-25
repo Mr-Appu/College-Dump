@@ -48,7 +48,6 @@ void delete(int *arr)
         break;
       }
     }
-
     return;
   }
 }
