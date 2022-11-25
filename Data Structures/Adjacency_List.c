@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-//Bfs using adjacency list
+
+//Dfs and Bfs using adjacency list
 
 struct node {
     int vertex;
