@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//dfs using adjacency matrix assuming no 
+//dfs and bfs using adjacency matrix assuming no 
 
 void insert(int v, int arr[v][v],int a,int b) {arr[a][b] = 1; arr[b][a] = 1;return;}
 
