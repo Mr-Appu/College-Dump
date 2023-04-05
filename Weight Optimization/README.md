@@ -2,6 +2,7 @@
 
 This repository contains code for weight optimization of Neural Network using different optimization algorithms such as 
 * Genetic Algorithm 
+* Cultural Algorithm
 * Particle Swarm Optimization 
 * Ant Colony Optimization
 
